@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="imagenes/one.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu&family=Work+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Encriptador</title>
+</head>
+<body>
+  <header>
+    <div class="contenedor-logo">
+      <a href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank"><img id="oracle"
+          src="imagenes/one.png" alt="Oracle Next Education" /></a>
+      <a href="https://github.com/BrandonFnts" target="_blank"><img id="github" src="imagenes/github.png"
+          alt="Github" /></a>
+      <a href="https://www.linkedin.com/in/brandon-fuentes-micete-102992266/" target="_blank"><img id="linkedin"
+          src="imagenes/linkedin.png" alt="Linkedin" /></a>
+    </div>
+  </header>
+  <label class="alerta">✪ Solo letras minúsculas y sin acentos</label>
+  <div class="cajastexto">
+    <textarea id="textoEntrada" placeholder="Ingrese su texto aquí"></textarea>
+    <textarea id="textoSalida" placeholder="Texto encriptado o desencriptado"></textarea>
+  </div>
+  <div>
+    <button class="botones" id="encriptar">Encriptar</button>
+    <button class="botones" id="desencriptar">Desencriptar</button>
+    <button class="botones" id="copiar">Copiar</button>
+  </div>
+  <script src="programa.js"></script>
+</body>
+</html>

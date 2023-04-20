@@ -1,0 +1,255 @@
+body {
+  background-color: rgb(31, 25, 25);
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/*Alterar las imagenes*/
+#oracle {
+  position: relative;
+  width: 15%;
+  height: 15%;
+  left: 20px;
+  top: 4px;
+}
+
+#github {
+  background-color: #343a40;
+  border-radius: 10px;
+  width: 6vw;
+  height: auto;
+  position: relative;
+  left: 60%;
+  top: 3em;
+}
+
+#linkedin {
+  background-color: #343a40;
+  border-radius: 10px;
+  width: 4vw;
+  height: auto;
+  position: relative;
+  left: 58%;
+  top: 3em;
+}
+/*Alterar los botones y cajas de texto*/
+.botones {
+  background-color: #343a40;
+  color: white;
+}
+#encriptar {
+  position: relative;
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  border-radius: 24px;
+  left: 20em;
+  top: -5.5em;
+}
+
+#desencriptar {
+  position: relative;
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  border-radius: 24px;
+  left: 21em;
+  top: -5.5em;
+}
+
+#copiar {
+  display: none;
+  position: relative;
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  border-radius: 24px;
+  left: 68%;
+  top: -9em;
+}
+
+.botones:hover {
+  transition: 1s all;
+  transform: scale(1.1);
+}
+
+.cajastexto {
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 3.5em;
+}
+
+.cajastexto textarea {
+  background-color: #343a40;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  padding: 3vw 2vw;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+  height: 30vh;
+  justify-items: center;
+  text-align: justify;
+}
+
+#textoEntrada {
+  position: relative;
+  width: 45%;
+  height: 25em;
+  margin: 10px;
+  padding: 2em;
+  border: none;
+  outline: none;
+  top: -3em;
+  text-align: initial;
+}
+
+#textoSalida {
+  position: relative;
+  width: 40%;
+  height: 25em;
+  margin: 10px;
+  padding: 2em;
+  border: none;
+  outline: none;
+  top: -3em;
+}
+::placeholder {
+  color: white;
+}
+
+.alerta {
+  color: white;
+  position: relative;
+  left: 5em;
+}
+
+/* Pantallas con maximo de 575 */
+@media screen and (max-width: 600px) {
+  .cajastexto {
+    width: auto;
+    padding: 3vw;
+  }
+
+  .alerta {
+    position: relative;
+    top: -5em;
+    left: 1.5em;
+  }
+
+  #encriptar {
+    position: relative;
+    width: 30%;
+    left: 1em;
+    top: -6em;
+  }
+
+  #desencriptar {
+    width: 30%;
+    position: relative;
+    left: 1em;
+    top: -6em;
+  }
+
+  #copiar {
+    width: 30%;
+    position: relative;
+    left: 16.5em;
+    top: -9.5em;
+  }
+
+  #textoEntrada, #textoSalida {
+    width: 78%;
+    height: 12em;
+    position: relative;
+    top: -4em;
+    left: 0em;
+  }
+
+  #oracle {
+    width: 30%;
+    position: relative;
+    top: 1em;
+    left: -1em;
+  }
+
+  #github {
+    width: 30%;
+    position: relative;
+    top: 0.5em;
+    left: -3em;
+  }
+
+  #linkedin {
+    width: 20%;
+    position: relative;
+    top: -5em;
+    left: 13em;
+  }
+
+}
+/* Pantallas con maximo de 400 */
+@media screen and (max-width: 399px) {
+  .cajastexto {
+    width: auto;
+    padding: 3vw;
+  }
+
+  .alerta {
+    position: relative;
+    top: -4.5em;
+    left: 0em;
+  }
+
+  #encriptar {
+    position: relative;
+    width: 30%;
+    left: 0em;
+    top: -6em;
+  }
+
+  #desencriptar {
+    width: 30%;
+    position: relative;
+    left: 1em;
+    top: -6em;
+  }
+
+  #copiar {
+    width: 30%;
+    position: relative;
+    left: 15.5em;
+    top: -8.5em;
+  }
+
+  #textoEntrada, #textoSalida {
+    width: 78%;
+    height: 8em;
+    position: relative;
+    top: -4em;
+    left: -0.5em;
+  }
+
+  #oracle {
+    width: 30%;
+    position: relative;
+    top: 0em;
+    left: -2em;
+  }
+
+  #github {
+    width: 30%;
+    position: relative;
+    top: -4.5em;
+    left: 5em;
+  }
+
+  #linkedin {
+    width: 20%;
+    position: relative;
+    top: -4.5em;
+    left: 3em;
+  }
+}
